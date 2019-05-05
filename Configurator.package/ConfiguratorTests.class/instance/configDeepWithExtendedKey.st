@@ -1,0 +1,3 @@
+configurations
+configDeepWithExtendedKey
+	^ Configuration readJSONFrom: self jsonDeepWithExtendedKey readStream

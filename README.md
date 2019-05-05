@@ -1,1 +1,3 @@
-Cinic (Configuration intentionally not in code) is a little library to configure a pharo image. It forks of the Configurator repo to rename and redo some things
+# pharo-configuration
+
+[![Build Status](https://travis-ci.org/zweidenker/Configurator.svg?branch=master)](https://travis-ci.org/zweidenker/Configurator)
