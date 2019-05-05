@@ -1,1 +1,0 @@
-I'm a ConfguratinStep. I reify a single action that needs to be executed in order to configure an image. I'm collect by the root configuration to prepare a list of configuration actions
