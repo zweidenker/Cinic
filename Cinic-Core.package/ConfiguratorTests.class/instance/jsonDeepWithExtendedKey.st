@@ -1,8 +1,8 @@
-json
+resources
 jsonDeepWithExtendedKey
 	^ '{ 
 	"key1" : "value1", 
-	"sub" : { 
+	"', self class subSectionName,'" : { 
 		"[subkey1]" : "3+4",
 		"subdeep" : { 
 			"[subdeepkey]" : "CurrentConfiguration value"

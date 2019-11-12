@@ -5,4 +5,6 @@ pragmas
 		filter: [ :pragma |  pragma keyword = #configurationStep ].
 	^ collector 
 		reset;
-		collect: [ :each | each ]
+		select: [:each | 
+			"only collect class side pragmas"
+			each methodClass isMeta ]

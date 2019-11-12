@@ -2,5 +2,5 @@ private
 buildSteps 
 	^ self pragmas collect: [ :pragma | 
 		(pragma method
-			valueWithReceiver: nil 
+			valueWithReceiver: pragma methodClass instanceSide
 			arguments: {  }) asConfigurationStep ]
