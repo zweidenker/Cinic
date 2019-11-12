@@ -1,4 +1,4 @@
-resources
+json
 jsonDeepWithExtendedKey
 	^ '{ 
 	"key1" : "value1", 
