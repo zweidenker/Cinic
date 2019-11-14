@@ -1,5 +1,5 @@
 accessing
-extendedAt: key
+extendedAt: key 
 	| extendedKey |
 	"extended key lookup. Keys can be surrounded by [] meaning the value 
 	should be evaluated to get a value"

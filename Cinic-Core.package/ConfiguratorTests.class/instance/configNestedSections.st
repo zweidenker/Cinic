@@ -1,0 +1,3 @@
+configurations
+configNestedSections
+	^ Configuration readJSONFrom: self jsonNestedSections readStream

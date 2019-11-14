@@ -1,5 +1,5 @@
 private
-pragmas
+imagePragmas
    | collector |
 	collector := PragmaCollector new 
 		filter: [ :pragma |  pragma keyword = #configurationStep ].
