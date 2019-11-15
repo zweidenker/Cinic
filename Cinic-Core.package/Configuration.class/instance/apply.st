@@ -1,10 +1,11 @@
 actions
 apply
 
-	rootSection allSectionsAndNamesDo: [ :eachSection :eachName |
-		self steps detect: [ :eachStep |
-			eachStep group = eachName
-			 ] ifFound: [ :matchingStep |
-				matchingStep executeWith: eachSection
-			 ]
-		 ]
+	rootSection paths do: [:eachPath |
+		self steps do: [ :eachStep |  
+			(eachStep matchesPath: eachPath) ifTrue: [ 
+				eachStep executeWith: (rootSection atPath: eachPath)
+				 ]
+			]
+		].
+	

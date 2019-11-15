@@ -5,18 +5,18 @@ testConfigStepsOrder
 	| config steps executedStepSections |
 	config := self configNestedSections.
 	executedStepSections := OrderedCollection new.
-	steps := #('section1' 'section3'  'section212' 'section2' 'section22' 'section31' 'section21' 'section211') collect: [:eachSectionName |
+	steps := #('1' '3'  '212' '2' '22' '31' '21' '211') collect: [:eachSectionName |
 		ConfigurationStep new
-			group: eachSectionName;
+			sectionPath: (eachSectionName asOrderedCollection collect: #asString);
 			action: [ :c | executedStepSections add: eachSectionName  ]
 		].
 	config steps: steps.
 	config apply.
-	self assert: (executedStepSections at: 1) = 'section1'.
-	self assert: (executedStepSections at: 2) = 'section2'.
-	self assert: (executedStepSections at: 3) = 'section21'.
-	self assert: (executedStepSections at: 4) = 'section211'.
-	self assert: (executedStepSections at: 5) = 'section212'.
-	self assert: (executedStepSections at: 6) = 'section22'.
-	self assert: (executedStepSections at: 7) = 'section3'.
-	self assert: (executedStepSections at: 8) = 'section31'.
+	self assert: (executedStepSections at: 1) = '1'.
+	self assert: (executedStepSections at: 2) = '2'.
+	self assert: (executedStepSections at: 3) = '21'.
+	self assert: (executedStepSections at: 4) = '211'.
+	self assert: (executedStepSections at: 5) = '212'.
+	self assert: (executedStepSections at: 6) = '22'.
+	self assert: (executedStepSections at: 7) = '3'.
+	self assert: (executedStepSections at: 8) = '31'.

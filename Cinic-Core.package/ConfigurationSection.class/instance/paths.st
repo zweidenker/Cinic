@@ -1,0 +1,4 @@
+accessing
+paths
+
+	^ self pathsFrom: #()
