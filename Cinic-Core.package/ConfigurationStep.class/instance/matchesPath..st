@@ -1,4 +1,4 @@
 executing
 matchesPath: aCollectionOfKeys
 
-	^ self sectionPath hasEqualElements: aCollectionOfKeys
+	^ aCollectionOfKeys endsWith: self sectionPath
