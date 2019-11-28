@@ -1,6 +1,6 @@
 private
 imageSteps 
-	^ self imagePragmas collect: [ :pragma | 
+	^ (self imagePragmas collect: [ :pragma | 
 		(pragma method
 			valueWithReceiver: pragma methodClass instanceSide
-			arguments: {  }) asConfigurationStep ]
+			arguments: {  }) asConfigurationStep ]) 
