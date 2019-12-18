@@ -1,0 +1,3 @@
+configurations
+configSectionsSharedActionValues
+	^ Configuration readJSONFrom: self jsonSectionsSharedActionValues readStream

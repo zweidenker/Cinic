@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"parent"
+		"parent",
+		"actionValue"
 	],
 	"name" : "ConfigurationSection",
 	"type" : "normal"

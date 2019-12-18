@@ -1,0 +1,3 @@
+configurations
+configSectionsMultipleMatch
+	^ Configuration readJSONFrom: self jsonSectionsMultipleMatch readStream
