@@ -1,15 +1,15 @@
 json
 jsonNestedSections
 	^ '{ 
-	"section1" : { "subkey1" : "subvalue1" },  
-	"section2" : { 
-		"section21" : { 
-			"section211" : { "subkey211" : "subvalue" },
-			"section212" : { "subkey212" : "subvalue" }
+	"A" : { "subkey1" : "subvalue1" },  
+	"B" : { 
+		"a" : { 
+			"1" : { "subkey211" : "subvalue" },
+			"2" : { "subkey212" : "subvalue" }
 			},
-		"section22" : { "subkey22" : "subvalue" } 
+		"b" : { "subkey22" : "subvalue" } 
 		},
-	"section3" : { 
-		"section31" : { "subkey31" : "subvalue1" }
+	"C" : { 
+		"a" : { "subkey31" : "subvalue1" }
 		}
 		}'
