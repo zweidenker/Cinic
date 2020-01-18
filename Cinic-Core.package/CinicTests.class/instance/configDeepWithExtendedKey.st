@@ -1,0 +1,3 @@
+configurations
+configDeepWithExtendedKey
+	^ Cinic readJSONFrom: self jsonDeepWithExtendedKey readStream

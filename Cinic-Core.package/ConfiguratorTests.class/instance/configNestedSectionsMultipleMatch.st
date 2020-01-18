@@ -1,3 +1,0 @@
-configurations
-configNestedSectionsMultipleMatch
-	^ Configuration readJSONFrom: self jsonNestedSectionsMultipleMatch readStream

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "NorbertHartl 4/23/2019 16:59",
+	"super" : "Object",
+	"category" : "Cinic-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action",
+		"sectionPath"
+	],
+	"name" : "CinicStep",
+	"type" : "normal"
+}
