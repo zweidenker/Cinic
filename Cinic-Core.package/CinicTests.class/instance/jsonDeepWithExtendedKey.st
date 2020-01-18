@@ -5,6 +5,6 @@ jsonDeepWithExtendedKey
 	"', self class subSectionName,'" : { 
 		"[subkey1]" : "3+4",
 		"subdeep" : { 
-			"[subdeepkey]" : "CurrentConfiguration value"
+			"[subdeepkey]" : "CurrentCinic value"
 	   }
 	}}'
