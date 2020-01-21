@@ -1,5 +1,5 @@
 *Cinic-Core
 sectionDo: aBlock
 	self 
-		sectionIn: CurrentConfiguration value  
+		sectionIn: CurrentCinic value  
 		do: aBlock

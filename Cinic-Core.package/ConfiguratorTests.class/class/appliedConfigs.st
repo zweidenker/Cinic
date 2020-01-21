@@ -1,4 +1,0 @@
-resources
-appliedConfigs
-
-	^ appliedConfigs

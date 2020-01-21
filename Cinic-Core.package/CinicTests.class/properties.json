@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Cinic-Core",
+	"classinstvars" : [
+		"appliedCinics"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"appliedConfigs"
+	],
+	"name" : "CinicTests",
+	"type" : "normal"
+}

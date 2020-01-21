@@ -1,0 +1,3 @@
+configurations
+configNestedSectionsMultipleMatch
+	^ Cinic readJSONFrom: self jsonNestedSectionsMultipleMatch readStream
