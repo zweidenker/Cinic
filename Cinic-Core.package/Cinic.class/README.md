@@ -37,7 +37,7 @@ Components can be annotated using pragmas
 	myConfiguration
 		<cinicStep>
 		^ CinicStep new
-			group: #server;
+			section: #server;
 			action: [ :config | MyServer port: config port ].
 			
 In order to apply the configuration to the image you need to evaluate 
