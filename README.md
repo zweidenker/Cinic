@@ -8,7 +8,7 @@ It can be loaded into a pharo image with:
 
 ```smalltalk
 Metacello new
-    	repository: 'https://github.com/zweidenker/Cinic:0.2’;
+    	repository: 'https://github.com/zweidenker/Cinic:0.2.1’;
     	baseline: 'Cinic';
     	load
 ```
