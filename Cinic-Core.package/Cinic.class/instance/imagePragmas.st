@@ -2,7 +2,7 @@ private
 imagePragmas
    | collector |
 	collector := PragmaCollector new 
-		filter: [ :pragma |  pragma keyword = #cinicStep ].
+		filter: [ :pragma |  pragma selector = #cinicStep ].
 	^ collector 
 		reset;
 		select: [:each | 
